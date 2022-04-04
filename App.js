@@ -6,7 +6,9 @@ const App = () => {
   return (
     <React.Fragment>
       <Header>ReactMeals</Header>
-      <Meals />
+      <main>
+        <Meals />
+      </main>
     </React.Fragment>
   );
 }
